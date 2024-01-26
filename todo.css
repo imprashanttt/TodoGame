@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    color:white;
+    background-color: rgb(228, 228, 228);
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.gamebox{
+    width:70vmin;
+    height:70vmin;
+    background-color: green;
+    color:white;
+    display:flex;
+    flex-wrap:wrap;
+    gap:1.5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box{
+    color:black;
+    background-color: red;
+    width:23vmin;
+    height:21vmin;
+    border-radius:13px;
+    text-align: center;
+    font-size: 45px;
+}
